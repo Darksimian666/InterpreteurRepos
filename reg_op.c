@@ -32,10 +32,10 @@ Automaton* Union (Automaton *a1 ,Automaton *a2)
 	
 	
 	set_initial(c,add_state(c));
-	
+	printf("d");;;;;;
 	add_arc(c,c->initial_state,a1->initial_state,EPSILON);
 	add_arc(c,c->initial_state,a2->initial_state,EPSILON);
 
 }
 
-Automaton *conc ()
+Automaton *conc (){printf("caca";)}
